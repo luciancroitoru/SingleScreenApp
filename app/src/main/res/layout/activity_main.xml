@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbackground"
+        android:divider="@drawable/separator"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        tools:context="com.example.lucian.singlescreenapp.MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/salsa" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorbanner"
+            android:paddingBottom="@dimen/paddingbottom"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/headline"
+            android:textAlignment="center"
+            android:textSize="@dimen/organizationname" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/paddingbottom"
+            android:paddingLeft="@dimen/paddingleft"
+            android:paddingRight="@dimen/paddingright"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/main_text"
+            android:textAlignment="center"
+            android:textSize="@dimen/main_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorbanner"
+            android:paddingBottom="@dimen/paddingbottom"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/subheading"
+            android:textAlignment="center"
+            android:textSize="@dimen/subheading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_location_on_black_24dp"
+                style="@style/style_email_image_view" />
+
+            <TextView
+                android:id="@+id/adress_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/paddingbottom"
+                android:paddingTop="@dimen/paddingtop2"
+                android:text="@string/location"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/phonenumber"
+                android:src="@drawable/ic_smartphone_black_24dp"
+                style="@style/style_phone_number_image_view" />
+
+            <TextView
+                android:text="@string/phone"
+                style="@style/style_phone_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_email_black_24dp"
+                style="@style/style_email_image_view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/paddingtop2"
+                android:text="@string/email"
+                android:textColorLink="@color/linkcolor"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_public_black_24dp"
+                style="@style/style_email_image_view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:paddingTop="@dimen/paddingtop2"
+                android:text="@string/webaddress"
+                android:textColorLink="@color/linkcolor"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorbanner" />
+
+    </LinearLayout>
+</ScrollView>

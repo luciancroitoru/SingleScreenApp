@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="headline">Salsa au vivo</string>
+    <string name="subheading">The best dance school in town</string>
+    <string name="main_text">We are excited to invite you to our new dance organization for the most amazing salsa courses in town!
+        Come meet our instructors, Pablo and Alexa! The first lesson is free! Contact us or check our website for more information!</string>
+    <string name="location">Strada Nicolae Balcescu, no 20</string>
+    <string name="phone">+40 746100200</string>
+    <string name="email">salsaauvivo@gmail.com</string>
+    <string name="webaddress">www.salsaauvivo.org</string>
+</resources>
